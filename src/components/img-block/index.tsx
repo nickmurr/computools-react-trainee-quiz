@@ -1,7 +1,7 @@
 import React from "react";
+import { IterationContext } from "../../utils";
 import { IImageBlock } from "../quiz-block";
 import * as style from "./img-block.module.scss";
-import { IterationContext } from "../../App";
 
 interface IProps {
   imgBlock: IImageBlock;

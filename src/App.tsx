@@ -3,29 +3,7 @@ import "./App.scss";
 import QuizBlock from "./components/quiz-block";
 import { IQuizBlock } from "./components/quiz-block/index";
 import Result from "./components/result/index";
-
-interface IIteractionContext {
-  onPick: (parentID: number, pickedItem: number) => void;
-  onRetake: () => void;
-}
-
-export const IterationContext = React.createContext<IIteractionContext>({} as any);
-
-function scroll(newData: IQuizBlock[]) {
-  const idx = newData.findIndex((i, idx) => i.picked === 0) + 1;
-
-  if (idx === 0) {
-    setTimeout(() => {
-      document.querySelector("#result")?.scrollIntoView({ block: "start", behavior: "smooth" }); // Scroll to the top
-    }, 50);
-  } else {
-    document.querySelector(`#quiz-block-${idx} `)?.scrollIntoView({ block: "start", behavior: "smooth" });
-  }
-}
-
-function mode<T>(arr: T[]) {
-  return arr.sort((a, b) => arr.filter((v) => v === a).length - arr.filter((v) => v === b).length).pop();
-}
+import { IterationContext, mode, scroll } from "./utils";
 
 function App() {
   const [data, setData] = React.useState<IQuizBlock[]>([]);

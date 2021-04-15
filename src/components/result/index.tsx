@@ -1,6 +1,6 @@
 import React from "react";
+import { IterationContext } from "../../utils";
 import * as style from "./result.module.scss";
-import { IterationContext } from "../../App";
 
 interface IProps {
   commonPick: number;
