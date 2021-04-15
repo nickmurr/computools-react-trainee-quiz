@@ -1,5 +1,5 @@
 import React from "react";
-import ImgBlock from "./img-block";
+import ImgBlock from "../img-block";
 import * as style from "./quiz-block.module.scss";
 
 export interface IQuizBlock {

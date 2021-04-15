@@ -76,5 +76,83 @@
         "src": "https://images.unsplash.com/photo-1596350351341-b3a5a045c6da?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDEyfHxjaG9jb2xhdGUlMjBtYWNhcm9uc3xlbnwwfHx8fDE2MTcyODU3MTA&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
       }
     ]
+  },
+  {
+    "title": "Now, pick some cupcakes",
+    "picked": 0,
+    "variants": [
+      {
+        "title": "Mint chocolate chip",
+        "description": "description 1",
+        "src": "https://images.unsplash.com/photo-1587668178269-b941ed743de1?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDJ8fG1pbnQlMjBjaG9jb2xhdGUlMjBjdXBjYWtlfGVufDB8fHx8MTYxNzI4NTc4MQ&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      },
+      {
+        "title": "Vanilla",
+        "description": "description 2",
+        "src": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDJ8fGN1cGNha2V8ZW58MHx8fHwxNjE3Mjg1ODAw&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      },
+      {
+        "title": "Chocolate",
+        "description": "description 3",
+        "src": "https://images.unsplash.com/photo-1550617931-e17a7b70dce2?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDV8fGN1cGNha2V8ZW58MHx8fHwxNjE3Mjg1ODAw&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      },
+      {
+        "title": "Strawberry",
+        "description": "description 4",
+        "src": "https://images.unsplash.com/photo-1563076429-c04cbe68da3a?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDEyfHxjdXBjYWtlc3xlbnwwfHx8fDE2MTcyODU4MjI&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      }
+    ]
+  },
+  {
+    "title": "Now, pick an ice cream flavor",
+    "picked": 0,
+    "variants": [
+      {
+        "title": "Strawberry",
+        "description": "description 1",
+        "src": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDF8fGljZSUyMGNyZWFtfGVufDB8fHx8MTYxNzIzNjIyMA&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      },
+      {
+        "title": "Chocolate chip",
+        "description": "description 2",
+        "src": "https://images.unsplash.com/photo-1614014077943-840960ce6694?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDI5fHx2YW5pbGxhJTIwaWNlJTIwY3JlYW18ZW58MHx8fHwxNjE3Mjg1ODk2&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      },
+      {
+        "title": "Vanilla",
+        "description": "description 3",
+        "src": "https://images.unsplash.com/photo-1477505982272-ead89926a577?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDZ8fGljZSUyMGNyZWFtfGVufDB8fHx8MTYxNzIzNjIyMA&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      },
+      {
+        "title": "Mint chocolate",
+        "description": "description 4",
+        "src": "https://images.unsplash.com/photo-1592864042311-a3babede6944?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDd8fG1pbnQlMjBjaG9jb2xhdGUlMjBpY2UlMjBjcmVhbXxlbnwwfHx8fDE2MTcyODU3Nzc&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      }
+    ]
+  },
+  {
+    "title": "Pick a cake flavor",
+    "picked": 0,
+    "variants": [
+      {
+        "title": "Coffee",
+        "description": "description 1",
+        "src": "https://images.unsplash.com/photo-1530640866372-0ac81d94eea7?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDIyfHxjYXJyb3QlMjBjYWtlfGVufDB8fHx8MTYxNzI4NjAyNQ&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      },
+      {
+        "title": "Oreo",
+        "description": "description 2",
+        "src": "https://images.unsplash.com/photo-1557925923-cd4648e211a0?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDMxfHxjYWtlfGVufDB8fHx8MTYxNzI4NTk4Mg&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      },
+      {
+        "title": "Strawberry",
+        "description": "description 3",
+        "src": "https://images.unsplash.com/photo-1562022791-1ee0dc5f8b1a?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDQ3fHxjYWtlfGVufDB8fHx8MTYxNzI4NjA2Mg&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      },
+      {
+        "title": "M&M",
+        "description": "description 4",
+        "src": "https://images.unsplash.com/photo-1557979619-445218f326b9?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDM4fHxjYWtlfGVufDB8fHx8MTYxNzI4NjA2Mg&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      }
+    ]
   }
 ]

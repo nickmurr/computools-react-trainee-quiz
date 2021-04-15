@@ -1,0 +1,17 @@
+.resultView {
+  padding: 0 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // margin: 10rem 0;
+  height: 100vh;
+
+  h2 {
+    margin: 10px 0;
+  }
+
+  span {
+    margin: 1rem 0;
+  }
+}
