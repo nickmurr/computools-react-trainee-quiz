@@ -23,8 +23,11 @@ interface IProps {
 }
 
 const QuizBlock = ({ quizBlock }: IProps) => {
+  // const ref = React.useRef(null);
+  // console.log(ref.current);
+
   return (
-    <>
+    <div ref={null} className={style.wrapper} id={`quiz-block-${quizBlock.id}`}>
       <div className={style.title}>
         <h2>{quizBlock.title}</h2>
       </div>
@@ -39,8 +42,10 @@ const QuizBlock = ({ quizBlock }: IProps) => {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
-export default QuizBlock;
+export default React.memo(QuizBlock, (prev, next) => {
+  return prev.quizBlock.picked === next.quizBlock.picked;
+});
