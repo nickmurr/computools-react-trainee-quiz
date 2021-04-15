@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Pick a macaron Flavor",
+    "picked": 0,
+    "variants": [
+      {
+        "description": "description 1",
+        "title": "Raspberry",
+        "src": "https://images.unsplash.com/photo-1606419128082-ea3bc7a628e4?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDN8fHJhc3BiZXJyeSUyMG1hY2Fyb258ZW58MHx8fHwxNjE3Mjg1NjU1&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      },
+      {
+        "description": "description 2",
+        "title": "Strawberry",
+        "src": "https://images.unsplash.com/photo-1612198791362-c996ceb686b1?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDZ8fG1hY2Fyb258ZW58MHx8fHwxNjE3MjE5MDk3&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      },
+      {
+        "description": "description 3",
+        "title": "Grean tea",
+        "src": "https://images.unsplash.com/photo-1566760375913-d6f04d90511e?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDJ8fEdyZWVuJTIwdGVhJTIwbWFjYXJvbnxlbnwwfHx8fDE2MTcyODU2ODI&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      },
+      {
+        "description": "description 4",
+        "title": "Chocolate",
+        "src": "https://images.unsplash.com/photo-1596350351341-b3a5a045c6da?ixid=Mnw3MzE3NHwwfDF8c2VhcmNofDEyfHxjaG9jb2xhdGUlMjBtYWNhcm9uc3xlbnwwfHx8fDE2MTcyODU3MTA&ixlib=rb-1.2.1&fit=crop&h=230&w=320&crop=edges"
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+.title {
+  background-color: #6645dd;
+  padding: 2rem;
+  text-align: center;
+  margin: 1rem 0;
+  color: white;
+  border-radius: 5px;
+}
+
+.imgBlocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1em;
+}
