@@ -5,7 +5,6 @@ export interface IIteractionContext {
   onPick: (parentID: number, pickedItem: number) => void;
   onRetake: () => void;
 }
-
 export const IterationContext = React.createContext<IIteractionContext>({} as any);
 
 export function scroll(newData: IQuizBlock[]) {

@@ -1,5 +1,5 @@
 import React from "react";
-import ImgBlock from "../img-block";
+import ImgBlock, { IImageBlock } from "../img-block";
 import * as style from "./quiz-block.module.scss";
 
 export interface IQuizBlock {
@@ -9,25 +9,13 @@ export interface IQuizBlock {
   picked: number;
 }
 
-export interface IImageBlock {
-  id?: number;
-
-  src: string;
-  title: string;
-  description: string;
-  active: boolean;
-}
-
 interface IProps {
   quizBlock: IQuizBlock;
 }
 
 const QuizBlock = ({ quizBlock }: IProps) => {
-  // const ref = React.useRef(null);
-  // console.log(ref.current);
-
   return (
-    <div ref={null} className={style.wrapper} id={`quiz-block-${quizBlock.id}`}>
+    <div className={style.wrapper} id={`quiz-block-${quizBlock.id}`}>
       <div className={style.title}>
         <h2>{quizBlock.title}</h2>
       </div>

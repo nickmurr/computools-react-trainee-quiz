@@ -1,7 +1,15 @@
 import React from "react";
 import { IterationContext } from "../../utils";
-import { IImageBlock } from "../quiz-block";
 import * as style from "./img-block.module.scss";
+
+export interface IImageBlock {
+  id?: number;
+
+  src: string;
+  title: string;
+  description: string;
+  active: boolean;
+}
 
 interface IProps {
   imgBlock: IImageBlock;
@@ -14,10 +22,7 @@ const ImgBlock = ({ imgBlock, pickedID, parentID }: IProps) => {
 
   return (
     <div
-      onClick={(e) => {
-        // console.table({ "image id": imgBlock.id, "parent id": parentID });
-        onPick(parentID as number, imgBlock.id!);
-      }}
+      onClick={(e) => onPick(parentID as number, imgBlock.id!)}
       className={`${style.block} ${pickedID === 0 ? "" : pickedID === imgBlock.id ? style.active : style.inactive}`}
     >
       <div className={style.wrapper}>
